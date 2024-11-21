@@ -26,4 +26,5 @@ Route::middleware('auth')->group(function () {
 
 Route::post('/import-reports', [ProfileController::class, 'import']);
 
+
 require __DIR__.'/auth.php';
